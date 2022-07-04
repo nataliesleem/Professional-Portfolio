@@ -1,61 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel ="stylesheet" href = "style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Natalie Sleem</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Natalie Sleem</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Portfolio</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="#">Resume</a>
+    </nav>
+  </header>
 
-<!-- Header -->
-<div class="header">
-  <h1>My Website</h1>
-  <p>With a <b>flexible</b> layout.</p>
-</div>
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>Web Developer Student</h2>
+    </div>
+  </section>
 
-<!-- Navigation Bar -->
-<div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-</div>
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          Hello! My name is Natalie and currently I am a Full Stack Engineer student at UCB Bootcamp. I currently live in the bay area, but received my Bachelor's degree in Business Finance at Cal State Long Beach. I have always had an interest in tech and am excited to be stepping into the field and showcasing my work! </p>
+          <p>My hobbies include:
+          <ul>
+            <li>Traveling</li>
+            <li>Fishing</li>
+            <li>Going to the beach</li>
+            <li>Watching TV</li>
+          </ul>
+          </p>
+      </div>
+    </section>
 
-<!-- The flexible grid (content) -->
-<div class="row">
-  <div class="side">
-    <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
-  </div>
-  <div class="main">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  </div>
-</div>
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Portfolio</h2>
+      <div class="flex-container">
 
-<!-- Footer -->
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+        <a href="#" class="flex-item surf-report">
+          <div>
+            <h3>Placeholder</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+        
+        <a href="#" class="flex-item led-wall">
+          <div>
+            <h3>Movie Search Project</h3>
+            <span>JQuery/Javascript/Bootstrap</span>
+          </div>
+        </a>
+        <a href="https://github.com/ravnishgupta/tech-upwork" target="_blank" class="flex-item react-calc">
+          <div>
+            <h3>Tech Up Work Project</h3>
+            <span>Node/Express/MySQL2/Express-Handlers</span>
+          </div>
+        </a>
 
+        <a href="#" class="flex-item pastel-puzzles">
+          <div>
+            <h3>Placeholder</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+
+    
+        <a href="#" class="flex-item run-buddy" target="_blank">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+19253008672">925.300.8672</a>
+          <a href="mailto:natalie.sleem@yahoo.com">natalie.sleem@yahoo.com</a>
+          <a href="https://github.com/nataliesleem">GitHub</a>
+          <a href="https://www.linkedin.com/in/natalie-sleem/" target="_blank">LinkedIn</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
 
 
